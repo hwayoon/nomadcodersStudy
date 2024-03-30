@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:21</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-xl"></i></span>
+        <span><i class="fa-solid fa-music fa-xl"></i></span>
+        <a href="settings.html">
+          <span><i class="fa-solid fa-gear fa-xl"></i></span>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/149074924?s=400&u=3e8a4a41fc5d501cde2f2b99f3fc4c2cab517b1c&v=4"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Hwayoon</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kokoa Account info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">20:29</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Apple</h4>
+            <h6 class="user-component__subtitle">
+              Don't forget to put me in refrigerator
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">19:21</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://images.pexels.com/photos/54369/pexels-photo-54369.jpeg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Orange</h4>
+            <h6 class="user-component__subtitle">let me back to my home</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">17:50</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://images.pexels.com/photos/934055/pexels-photo-934055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Strawberry</h4>
+            <h6 class="user-component__subtitle">
+              How about let your niece to meet
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">13:29</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Kiwi</h4>
+            <h6 class="user-component__subtitle">
+              Please check how many seeds I have
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">10:29</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-solid fa-comment fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification-vertical"></span>
+            <i class="fa-solid fa-ellipsis-vertical fa-2xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b70322d54e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css";
+@import "variables.css"; /*다른 파일에서 변수 사용하려면 먼저 써줘야*/
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+
+body{
+    font-family: 'Playpen Sans', cursive;
+    color: #2e363e;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
+
+
+/*Find page dot on the gear icon of status-bar */
+.screen-header__icons{
+    position:relative;
+}
+.gear-dot {
+    background-color:tomato;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    right:-4px;
+    top: -10px;
+}
+.user-component__subtitle i{
+    color: tomato;
+}
